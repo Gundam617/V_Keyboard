@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradey's Project</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="keyboard.css" />
+  </head>
+  <body>
+    <h1>Virtual Keyboard</h1>
+    <h3>HTML, CSS, Javascript</h3>
+    <textarea
+      class="use-keyboard-input"
+      style="position: absolute; top: 130px; right: 30px; width: 300px;"
+    ></textarea>
+
+    <div class="keyboard">
+      <div class="keyboard-keys">
+        <button type="button" class="keyboard-key">a</button>
+        <button type="button" class="keyboard-key keyboard-key-wide">
+          <i class="material-icons">backspace</i>
+        </button>
+        <button type="button" class="keyboard-key keyboard-key-extra-wide">
+          <i class="material-icons">space_bar</i>
+        </button>
+      </div>
+    </div>
+
+    <script src="keyboard.js"></script>
+  </body>
+</html>
